@@ -140,6 +140,14 @@ async function cadastrar() {
 
 }
 
+input[type=text]:focus {
+    border: 2px solid #622dcc;
+}
+
+input[type=password]:focus {
+    border: 2px solid #622dcc;
+}
+
 input::placeholder {
     color: rgb(157, 157, 157);
 }

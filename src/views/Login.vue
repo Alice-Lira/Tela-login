@@ -122,11 +122,19 @@ async function logar() {
     width: 100%;
     padding: 8px;
     border-radius: 5px;
-    border: 0;
     margin-top: 5px;
     outline: none;
     border: #b9b5b5 solid 1px;
     background: rgb(244, 241, 241);
+
+}
+
+input[type=text]:focus {
+    border: 2px solid #622dcc;
+}
+
+input[type=password]:focus {
+    border: 2px solid #622dcc;
 }
 
 input::placeholder {
